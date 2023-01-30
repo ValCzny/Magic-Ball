@@ -1,9 +1,10 @@
 // Variables
 let botoncito = document.getElementById("button");
 let span_de_respuesta = document.getElementById("span-answer");
+let input_answer = document.getElementById("input-answer");
 let random_number;
 
-botoncito.addEventListener("click", aleatorio)
+botoncito.addEventListener("click", aleatorio);
 
 function aleatorio() {
     random_number = Math.floor(Math.random()*(30-1)+1);
@@ -74,4 +75,5 @@ function respuesta() {
     else {
         span_de_respuesta.firstChild.nodeValue = "Vuelve a preguntar"
     }
+    input_answer.value = ""
 }

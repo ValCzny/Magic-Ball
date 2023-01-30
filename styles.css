@@ -16,7 +16,7 @@ button{
 
 /*Header*/
 .header{
-    height: 75px;
+    height: 65px;
     width: 100%;
     position: fixed;
     background-color: rgb(121, 81, 190);
@@ -31,10 +31,28 @@ button{
     font-size: 2.8rem;
 }
 
+/*Text Section*/
+
+.text-section{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+h3{
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+.text-section-p{
+    font-size: 1.5rem;
+}
+
 /*Main*/
 
 .main{
-    padding-top: 70px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -54,7 +72,7 @@ img{
 .button{
     width: 150px;
     height: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     background-color: rgb(121, 81, 190);
     border-radius: 10px;
     color: rgb(248, 230, 253);
@@ -81,6 +99,13 @@ img{
     height: 60px;
     background-color: rgb(211, 164, 255);
     border-radius: 20px;
+}
+#input-answer{
+    padding: 1%;
+    width: 190px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 40px;
 }
 
 /*Footer*/
