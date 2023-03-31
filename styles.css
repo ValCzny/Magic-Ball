@@ -77,6 +77,8 @@ img{
     border-radius: 10px;
     color: rgb(248, 230, 253);
     cursor: pointer;
+
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
 }
 .button:hover{
     background-color: rgb(69, 46, 108);
@@ -106,6 +108,8 @@ img{
     height: 40px;
     border-radius: 20px;
     margin-bottom: 40px;
+
+    box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.75);
 }
 
 /*Footer*/
@@ -116,4 +120,16 @@ footer{
 .footer-text{
     text-align: center;
     font-size: 1.6rem;
+}
+
+@media (max-width: 680px) {
+    .main{
+        flex-direction: column;
+    }
+    .section-img{
+        display: none;
+    }
+    .section-answer{
+        margin-top: 80px;
+    }
 }
