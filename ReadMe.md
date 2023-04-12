@@ -1,4 +1,3 @@
 # Magic Ball
-## Este repositorio es para almacenar lso asrchivos de mi sitio web.
- 
+ Es un proyecto personal con HTML, CSS y javaScript Vanilla
  Puedes visitarlo siempre que desees.
